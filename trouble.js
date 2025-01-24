@@ -1,13 +1,13 @@
 let v1 = 3;
-let v2 = 4
-//alert("3 times 4" + equals + v1 * v2);
+let v2 = 4;
+window.alert("3 times 4 " + "equals " + v1 * v2); //made the window alert and fixed the equals and grammar
 
  // This sets the general styling for the divs within the section tag using .style
-            let section = document.getElementById("s1")
+            let section = document.getElementById("s1") //Added an s at the end of element in .getElementById()
             section.style.width = "50%"
             section.style.textAlign = "center"
             section.style.fontFamily = "arial, serif"
-            section.style.fontWeight = "bold"
+            section.style.fontWeight = "bold" //spelt style wrong
             section.style.fontStyle = "italic"
             section.style.fontSize = "20px"
 
@@ -16,7 +16,7 @@ let v2 = 4
 			//.style.backgroundColor is used to assign a different background color to each div
 			
             // RED
-            const red = document.getElementById("red")
+            const red = document.getElementById("red") //forgot to capitalize the E in element
             red.innerHTML = "RED"
             red.style.backgroundColor = "red"
 
